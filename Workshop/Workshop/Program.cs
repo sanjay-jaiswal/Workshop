@@ -19,8 +19,8 @@ namespace Workshop
             currentPosition += rollTheDie();
             Console.WriteLine("=====Welcome to Snake And Ladder=====");
             Console.WriteLine("The start postion of game is : " + START_POISTION);
-           // Console.WriteLine("The end postion of game is : " + END_POSTION);
 
+            Console.WriteLine("Random die number is : " +currentPosition);
             Console.ReadLine();
         }
     }
